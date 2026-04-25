@@ -163,10 +163,10 @@ else:
 ## Результаты
 
 ### Вывод основного приложения
-!(/images/prog_result.jpg)
+!(images/prog_result.jpg)
 
 ### Вывод приложения для верификации результатов
-!(/images/verification.jpg)
+!(images/verification.jpg)
 
 ## Анализ
 Время выполнения растет пропорционально O(n³)
