@@ -173,6 +173,9 @@ vector<vector<double>> unflattenMatrix(const vector<double>& flat, int n) {
 5. Linker → Input → Additional Dependencies: msmpi.lib
 6. Выберите конфигурацию Release и платформу x64
 
+### Настройка MPI в Visual Studio x64 Native Tools
+cl /EHsc /O2 main.cpp /I "C:\Program Files (x86)\Microsoft SDKs\MPI\Include" /link /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64" msmpi.lib
+
 ### Запуск программы
 Для корректного отображения русского языка в консоли выполните:
 
